@@ -1,0 +1,24 @@
+header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+    padding-top: 1.5rem;
+}
+
+.btn-custom {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  background-color: #3346b0;
+}
