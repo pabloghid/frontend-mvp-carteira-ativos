@@ -22,3 +22,13 @@ header {
 .btn-custom:hover {
   background-color: #3346b0;
 }
+
+.right {
+  text-align: right;
+}
+
+.td-acoes {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+}
