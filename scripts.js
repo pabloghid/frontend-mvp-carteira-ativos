@@ -79,7 +79,7 @@ const postPosicao = async (ativoId, quantidade, precoMedio, totalInvestido) => {
   formData.append('total_investido', totalInvestido);
 
   let url = 'http://127.0.0.1:5000/posicao';
-  fetch(url, {
+  return fetch(url, {
     method: 'post',
     body: formData
   })
