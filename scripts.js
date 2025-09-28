@@ -185,7 +185,9 @@ const enableEditPosicao = (posicaoId) => {
   --------------------------------------------------------------------------------------
 */
 const deletePosicao = (id) => {
-  console.log(id)
+  if (!confirm("Tem certeza que deseja excluir esta posição?")) {
+    return; 
+  }
   let url = 'http://127.0.0.1:5000/posicao/' + id;
   fetch(url, {
     method: 'delete'
